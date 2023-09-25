@@ -36,7 +36,7 @@ void selection_sort(int *array, size_t size)
 
 		if ((array + i) != ints)
 		{
-			swap_ints(array + i, ints);
+			exchange_ints(array + i, ints);
 			print_array(array, size);
 		}
 	}
